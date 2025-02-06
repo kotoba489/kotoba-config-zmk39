@@ -15,7 +15,7 @@
   &kp LSHFT  &to 1  &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LESS_THAN SPACE  &kp SPACE  &kp RET                       &mkp LCLK
             >;
 
-            label = "onishi";
+            label = "ONISHI";
         };
 
         Skinner39_01 {
