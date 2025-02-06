@@ -7,22 +7,26 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        skinner39_00 {
             bindings = <
   &kp Q      &kp F  &kp U         &kp MINUS  &kp COMMA                                      &kp H    &kp Y  &kp R  &kp W  &bt BT_CLR
   &kp Z      &kp E  &kp I         &kp A      &kp O                                          &kp K    &kp N  &kp T  &kp S  &kp B
   &kp L      &kp X  &kp C         &kp V      &kp PERIOD                                     &kp G    &kp M  &kp D  &kp J  &mt RCTRL P
   &kp LSHFT  &to 1  &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LESS_THAN SPACE  &kp SPACE  &kp RET                       &mkp LCLK
             >;
+
+            label = "onishi";
         };
 
-        number_layer {
+        Skinner39_01 {
             bindings = <
   &kp N7        &kp N8        &kp N9        &kp N0    &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &bt BT_CLR
   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none     &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &kp RIGHT_CONTROL
   &kp LSHFT     &to 0         &kp LALT      &kp LCMD  &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &mkp LCLK
             >;
+
+            label = "NUM";
         };
 
         symbol_layer {
