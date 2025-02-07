@@ -9,10 +9,10 @@
 
         skinner39_00 {
             bindings = <
-  &kp Q      &kp F  &kp U         &kp MINUS  &kp COMMA                                      &kp H    &kp Y  &kp R  &kp W  &kp B
-  &kp Z      &kp E  &kp I         &kp A      &kp O                                          &kp K    &kp N  &kp T  &kp S  &mkp LCLK
-  &kp L      &kp X  &kp C         &kp V      &kp PERIOD                                     &kp G    &kp M  &kp D  &kp J  &mt RCTRL P
-  &kp LSHFT  &to 1  &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LESS_THAN SPACE  &kp SPACE  &kp RET                       &bt BT_CLR
+  &kp Q      &kp F  &kp U         &kp MINUS  &kp COMMA                                  &kp H    &kp Y  &kp R  &kp W  &kp B
+  &kp Z      &kp E  &kp I         &kp A      &kp O                                      &kp K    &kp N  &kp T  &kp S  &mkp LCLK
+  &kp L      &kp X  &kp C         &kp V      &kp PERIOD                                 &kp G    &kp M  &kp D  &kp J  &mt RCTRL P
+  &kp LSHFT  &to 1  &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LCTRL SPACE  &kp SPACE  &kp RET                       &bt BT_CLR
             >;
 
             label = "ONISHI";
