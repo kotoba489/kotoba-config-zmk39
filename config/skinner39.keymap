@@ -2,6 +2,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     keymap {
@@ -20,10 +21,10 @@
 
         Skinner39_01 {
             bindings = <
-  &kp N7        &kp N8        &kp N9        &kp N0    &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &bt BT_CLR
-  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &none     &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans    &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &kp RIGHT_CONTROL
-  &kp LSHFT     &to 0         &kp LALT      &kp LCMD  &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &mkp LCLK
+  &kp N7        &kp N8        &kp N9        &kp N0          &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &bt BT_CLR
+  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &msc SCRL_UP    &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &msc SCRL_DOWN  &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &kp RIGHT_CONTROL
+  &kp LSHFT     &to 0         &kp LALT      &kp LCMD        &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &mkp LCLK
             >;
 
             label = "NUM";
