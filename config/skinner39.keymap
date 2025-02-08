@@ -21,10 +21,10 @@
 
         Skinner39_01 {
             bindings = <
-  &kp N7        &kp N8        &kp N9        &kp N0          &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &bt BT_CLR
-  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &msc SCRL_UP    &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &msc SCRL_DOWN  &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &kp RIGHT_CONTROL
-  &kp LSHFT     &to 0         &kp LALT      &kp LCMD        &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &mkp LCLK
+  &kp N7        &kp N8        &kp N9        &kp N0    &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &bt BT_CLR
+  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mkp MB1  &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &msc MOVE_X(15)
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mkp MB2  &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &msc MOVE_Y(10)
+  &kp LSHFT     &to 0         &kp LALT      &kp LCMD  &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &mkp LCLK
             >;
 
             label = "NUM";
@@ -59,7 +59,7 @@
 
         scroll_layer {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+  &trans  &none   &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
