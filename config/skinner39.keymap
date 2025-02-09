@@ -9,10 +9,10 @@
 
         ONISHI {
             bindings = <
-  &mkp LCLK       &mt LCTRL F  &kp U         &kp MINUS  &kp COMMA                                  &mt LEFT_PARENTHESIS H  &mt RIGHT_PARENTHESIS Y  &mt LEFT_BRACKET R  &mt RIGHT_BRACKET W  &kp B
-  &kp Z           &kp E        &kp I         &kp A      &kp O                                      &kp K                   &kp N                    &kp T               &kp S                &kp P
-  &mt CAPSLOCK Q  &kp X        &kp C         &kp V      &kp PERIOD                                 &mt SLASH G             &kp M                    &kp D               &kp J                &kp L
-  &kp LSHFT       &to 1        &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LCTRL SPACE  &kp SPACE  &kp RET                                                                                   &bt BT_CLR
+  &mkp LCLK  &mt LCTRL F  &kp U         &kp MINUS  &kp COMMA                                  &kp H    &kp Y  &kp R  &kp W  &kp B
+  &kp Z      &kp E        &kp I         &kp A      &kp O                                      &kp K    &kp N  &kp T  &kp S  &kp P
+  &kp Q      &kp X        &kp C         &kp V      &kp PERIOD                                 &kp G    &kp M  &kp D  &kp J  &kp L
+  &kp LSHFT  &to 1        &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LCTRL SPACE  &kp SPACE  &kp RET                       &bt BT_CLR
             >;
 
             label = "KTB";
