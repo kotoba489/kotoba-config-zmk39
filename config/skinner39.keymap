@@ -15,7 +15,7 @@
   &kp LSHFT  &to 1        &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LCTRL SPACE  &kp SPACE  &kp RET                                                                                   &bt BT_CLR
             >;
 
-            label = "DOC";
+            label = "K T B";
         };
 
         NUM {
