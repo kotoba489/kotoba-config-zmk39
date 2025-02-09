@@ -7,7 +7,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        skinner39_00 {
+        ONISHI {
             bindings = <
   &mkp LCLK  &mt LCTRL F  &kp U         &kp MINUS  &kp COMMA                                  &mt LEFT_PARENTHESIS H  &mt RIGHT_PARENTHESIS Y  &mt LEFT_BRACKET R  &mt RIGHT_BRACKET W  &kp B
   &kp Z      &kp E        &kp I         &kp A      &kp O                                      &kp K                   &kp N                    &kp T               &kp S                &kp P
@@ -15,10 +15,10 @@
   &kp LSHFT  &to 1        &kp LEFT_ALT  &kp LCMD   &kp BACKSPACE  &mt LCTRL SPACE  &kp SPACE  &kp RET                                                                                   &bt BT_CLR
             >;
 
-            label = "ONISHI";
+            label = "kotoba";
         };
 
-        Skinner39_01 {
+        NUM {
             bindings = <
   &kp N7        &kp N8        &kp N9        &kp N0    &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &none
   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &mkp MB1  &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
@@ -26,7 +26,7 @@
   &kp LSHFT     &to 0         &kp LALT      &kp LCMD  &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &bt BT_CLR
             >;
 
-            label = "NUM";
+            label = "012345";
         };
 
         symbol_layer {
