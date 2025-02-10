@@ -21,10 +21,10 @@
 
         NUM {
             bindings = <
-  &kp N7        &kp N8        &kp N9        &kp N0    &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &none
-  &kp NUMBER_4  &lt 5 N5      &kp NUMBER_6  &mkp MB1  &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
-  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mkp MB2  &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &none
-  &kp LSHFT     &to 0         &kp LALT      &kp LCMD  &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &bt BT_CLR
+  &kp N7        &kp N8        &kp N9        &kp N0           &kp LEFT_BRACKET                               &kp LEFT_PARENTHESIS   &kp AT        &kp COMMA   &kp MINUS  &none
+  &kp NUMBER_4  &lt 5 N5      &kp NUMBER_6  &msc MOVE_Y(10)  &kp RIGHT_BRACKET                              &kp RIGHT_PARENTHESIS  &kp UP_ARROW  &kp PERIOD  &kp PLUS   &none
+  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &msc MOVE_X(10)  &kp SLASH                                      &kp LEFT_ARROW         &kp DOWN      &kp RIGHT   &kp EQUAL  &none
+  &kp LSHFT     &to 0         &kp LALT      &kp LCMD         &kp BACKSPACE      &mt LCTRL SPACE  &kp SPACE  &kp RET                                                     &bt BT_CLR
             >;
 
             label = "489";
