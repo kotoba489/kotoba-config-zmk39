@@ -39,7 +39,7 @@
         };
 
         hate {
-            bindings = <&kp SLASH>;
+            bindings = <&kp QUESTION>;
             key-positions = <3 4>;
             timeout-ms = <32>;
         };
