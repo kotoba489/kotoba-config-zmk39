@@ -5,6 +5,16 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            timeout-ms = <32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
