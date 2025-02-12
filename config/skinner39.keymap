@@ -43,6 +43,75 @@
             key-positions = <3 4>;
             timeout-ms = <32>;
         };
+
+        one {
+            bindings = <&kp NUMBER_1>;
+            key-positions = <10 11>;
+            timeout-ms = <32>;
+        };
+
+        two {
+            bindings = <&kp NUMBER_2>;
+            key-positions = <11 12>;
+            timeout-ms = <32>;
+        };
+
+        san {
+            bindings = <&kp NUMBER_3>;
+            key-positions = <12 13>;
+            timeout-ms = <32>;
+        };
+
+        yon {
+            bindings = <&kp NUMBER_4>;
+            key-positions = <13 14>;
+            timeout-ms = <32>;
+        };
+
+        go {
+            bindings = <&kp N5>;
+            key-positions = <14 24>;
+            timeout-ms = <32>;
+        };
+
+        roku {
+            bindings = <&kp NUMBER_6>;
+            key-positions = <15 16>;
+            timeout-ms = <32>;
+        };
+
+        nana {
+            bindings = <&kp N7>;
+            key-positions = <16 17>;
+            timeout-ms = <32>;
+        };
+
+        hati {
+            bindings = <&kp N8>;
+            key-positions = <17 18>;
+            timeout-ms = <32>;
+        };
+
+        q {
+            bindings = <&kp N9>;
+            key-positions = <18 19>;
+            timeout-ms = <32>;
+        };
+
+        zero {
+            bindings = <&kp N0>;
+            key-positions = <19 29>;
+            timeout-ms = <32>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
+        };
     };
 
     keymap {
