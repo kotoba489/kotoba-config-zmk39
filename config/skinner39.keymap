@@ -121,6 +121,24 @@
             key-positions = <20 10>;
             timeout-ms = <32>;
         };
+
+        up {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <13 14>;
+            timeout-ms = <32>;
+        };
+
+        dw {
+            bindings = <&kp DOWN>;
+            key-positions = <23 24>;
+            timeout-ms = <32>;
+        };
+
+        q {
+            bindings = <&kp QUESTION>;
+            key-positions = <9 19>;
+            timeout-ms = <32>;
+        };
     };
 
     macros {
