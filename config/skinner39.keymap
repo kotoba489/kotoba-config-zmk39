@@ -67,6 +67,18 @@
             key-positions = <23 24>;
             timeout-ms = <32>;
         };
+
+        le {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <13 23>;
+            timeout-ms = <32>;
+        };
+
+        ri {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <14 24>;
+            timeout-ms = <32>;
+        };
     };
 
     macros {
