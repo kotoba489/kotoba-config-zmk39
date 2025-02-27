@@ -45,7 +45,7 @@
         };
 
         ss4 {
-            bindings = <&kp LG(NUMBER_4)>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
             key-positions = <20 21>;
             timeout-ms = <32>;
         };
