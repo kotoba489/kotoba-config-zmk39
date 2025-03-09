@@ -114,10 +114,10 @@
 
         NUM {
             bindings = <
-  &mkp LCLK  &kp LCTRL  &kp N7        &kp N8        &kp N9                                     &kp N0          &kp COMMA     &kp PERIOD  &bt BT_SEL 4  &bt BT_SEL 0
-  &none      &to 2      &kp NUMBER_4  &kp N5        &kp NUMBER_6                               &kp AT          &kp UP_ARROW  &none       &none         &bt BT_SEL 1
-  &to 5      &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                               &kp LEFT_ARROW  &kp DOWN      &kp RIGHT   &none         &bt BT_SEL 3
-  &kp LSHFT  &to 0      &kp LALT      &kp LCMD      &mt LCTRL SPACE  &kp SPACE  &kp BACKSPACE  &kp RET                                                 &bt BT_CLR
+  &mkp LCLK  &kp LCTRL  &kp N7        &kp N8        &kp N9                                &kp N0          &kp COMMA     &kp PERIOD  &bt BT_SEL 4  &bt BT_SEL 0
+  &none      &to 2      &kp NUMBER_4  &kp N5        &kp NUMBER_6                          &kp AT          &kp UP_ARROW  &none       &none         &bt BT_SEL 1
+  &to 5      &none      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT   &none         &bt BT_SEL 3
+  &kp LSHFT  &to 0      &kp LALT      &kp LCMD      &kp SPACE     &kp BACKSPACE  &kp RET  &kp SPACE                                               &bt BT_CLR
             >;
 
             label = "489";
@@ -125,10 +125,10 @@
 
         FCP_layer {
             bindings = <
-  &kp LG(B)  &kp Q         &kp E         &none     &none                                &none  &none  &none  &none  &none
-  &kp A      &kp NUMBER_1  &kp NUMBER_2  &none     &trans                               &none  &none  &none  &none  &none
-  &trans     &kp X         &kp C         &kp V     &none                                &none  &none  &none  &none  &none
-  &none      &to 0         &none         &kp LGUI  &kp BACKSPACE  &kp SPACE  &kp SPACE  &none                       &none
+  &kp LG(B)  &kp Q         &kp E         &none     &none                              &none      &none  &none  &none  &none
+  &kp A      &kp NUMBER_1  &kp NUMBER_2  &none     &trans                             &none      &none  &none  &none  &none
+  &trans     &kp X         &kp C         &kp V     &none                              &none      &none  &none  &none  &none
+  &none      &to 0         &none         &kp LGUI  &kp SPACE  &kp BACKSPACE  &kp RET  &kp SPACE                       &none
             >;
         };
 
