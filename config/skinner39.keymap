@@ -49,7 +49,7 @@
             timeout-ms = <32>;
         };
 
-        call {
+        caps {
             bindings = <&kp CAPS>;
             key-positions = <20 10>;
             timeout-ms = <32>;
@@ -92,8 +92,32 @@
         };
 
         BTC {
-            bindings = <&bt BT_CLR>;
+            bindings = <&bt BT_CLR_ALL>;
             key-positions = <3 4>;
+            timeout-ms = <32>;
+        };
+
+        up2 {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <15 16>;
+            timeout-ms = <0.32>;
+        };
+
+        dw2 {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <25 26>;
+            timeout-ms = <32>;
+        };
+
+        le2 {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <15 25>;
+            timeout-ms = <32>;
+        };
+
+        ri2 {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <16 26>;
             timeout-ms = <32>;
         };
     };
